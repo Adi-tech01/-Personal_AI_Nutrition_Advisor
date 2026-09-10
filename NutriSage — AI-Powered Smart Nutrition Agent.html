@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriSage — AI-Powered Smart Nutrition Agent</title>
+  <link href="./NutriSage — AI-Powered Smart Nutrition Agent_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./NutriSage — AI-Powered Smart Nutrition Agent_files/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./NutriSage — AI-Powered Smart Nutrition Agent_files/app.css">
+  <style>
+    .hero { background: linear-gradient(135deg, #1a7a4a 0%, #2ecc71 100%); min-height: 92vh; }
+    .feature-card { transition: transform .2s, box-shadow .2s; border: 1px solid #e8f5e9; }
+    .feature-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(26,122,74,.15); }
+    .hero-badge { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); }
+    .stat-number { font-size: 2.2rem; font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success-custom px-4">
+  <a class="navbar-brand fw-bold fs-5" href="http://localhost:5000/">🥗 NutriSage</a>
+  <div class="ms-auto d-flex gap-2">
+    <a href="http://localhost:5000/login" class="btn btn-outline-light btn-sm">Login</a>
+    <a href="http://localhost:5000/register" class="btn btn-light btn-sm fw-semibold">Get Started Free</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero d-flex align-items-center text-white">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          <span class="badge hero-badge px-3 py-2"><i class="bi bi-robot me-1"></i>AI-Powered</span>
+          <span class="badge hero-badge px-3 py-2"><i class="bi bi-heart me-1"></i>Indian Food Support</span>
+          <span class="badge hero-badge px-3 py-2"><i class="bi bi-people me-1"></i>Family Nutrition</span>
+        </div>
+        <h1 class="display-4 fw-bold lh-1 mb-3">Your Personal<br><span style="color:#a8edbe">AI Nutrition<br>Advisor</span></h1>
+        <p class="lead opacity-90 mb-4">
+          Get personalised meal plans, calorie tracking, hydration guidance,
+          and expert nutrition advice — powered by AI and tailored to Indian
+          food culture and your unique health goals.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="http://localhost:5000/register" class="btn btn-light btn-lg px-4 fw-semibold">
+            <i class="bi bi-rocket me-2"></i>Start for Free
+          </a>
+          <a href="http://localhost:5000/login" class="btn btn-outline-light btn-lg px-4">
+            Sign In
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block text-center">
+        <div class="hero-preview p-4 rounded-4" style="background:rgba(255,255,255,.12);backdrop-filter:blur(8px)">
+          <div class="text-start bg-white rounded-3 p-3 text-dark shadow mb-3">
+            <div class="d-flex gap-2 align-items-start mb-2">
+              <span class="badge bg-success">AI</span>
+              <small class="text-muted">NutriSage</small>
+            </div>
+            <p class="mb-0 small">👋 Hello Priya! Based on your profile (PCOS, vegetarian, 1800 kcal goal), here's your personalised breakfast: <strong>Moong dal chilla with mint chutney + 1 cup low-fat dahi</strong> — ~320 kcal, 18g protein. 🌿</p>
+          </div>
+          <div class="text-end">
+            <div class="d-inline-block bg-success text-white rounded-3 p-3 text-start shadow">
+              <small>What snack should I have before gym?</small>
+            </div>
+          </div>
+          <div class="text-start bg-white rounded-3 p-3 text-dark shadow mt-3">
+            <div class="d-flex gap-2 align-items-start mb-2">
+              <span class="badge bg-success">AI</span>
+            </div>
+            <p class="mb-0 small">💪 Pre-workout (30-45 min before): <strong>1 banana + 2 tbsp peanut butter</strong> or <strong>Sattu sharbat</strong> — quick energy + sustained protein. Hydrate with 300-400 ml water before training!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="py-4 bg-light border-bottom">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-md-3">
+        <div class="stat-number text-success">5000+</div>
+        <small class="text-muted">Indian &amp; Global Foods</small>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-number text-success">15+</div>
+        <small class="text-muted">Diet Frameworks</small>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-number text-success">360°</div>
+        <small class="text-muted">Wellness Tracking</small>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-number text-success">∞</div>
+        <small class="text-muted">Family Members</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-2">Everything you need for smarter nutrition</h2>
+    <p class="text-center text-muted mb-5">One platform. Personalised advice. Culturally aware.</p>
+    <div class="row g-4">
+      
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-chat-dots-fill text-success"></i></span>
+          </div>
+          <h6 class="fw-semibold">AI Nutrition Chatbot</h6>
+          <p class="text-muted small mb-0">Ask anything — meal ideas, calorie counts, diet advice — and get instant, personalised AI responses.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-bar-chart-fill text-primary"></i></span>
+          </div>
+          <h6 class="fw-semibold">Calorie &amp; Nutrient Tracking</h6>
+          <p class="text-muted small mb-0">Log meals with detailed macros and monitor your daily intake against personalised goals.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-calendar-check-fill text-warning"></i></span>
+          </div>
+          <h6 class="fw-semibold">Meal Plan Generator</h6>
+          <p class="text-muted small mb-0">Generate AI-powered daily or weekly meal plans tailored to your preferences and goals.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-droplet-fill text-info"></i></span>
+          </div>
+          <h6 class="fw-semibold">Hydration Tracker</h6>
+          <p class="text-muted small mb-0">Track your daily water intake with visual progress and reminders to stay optimally hydrated.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-people-fill text-danger"></i></span>
+          </div>
+          <h6 class="fw-semibold">Family Nutrition</h6>
+          <p class="text-muted small mb-0">Manage nutrition for your entire family — kids, parents, spouse — with individual profiles.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-cart-fill text-secondary"></i></span>
+          </div>
+          <h6 class="fw-semibold">Smart Grocery Lists</h6>
+          <p class="text-muted small mb-0">Auto-generate organised grocery shopping lists directly from your AI meal plans.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-flower1 text-success"></i></span>
+          </div>
+          <h6 class="fw-semibold">Indian Food Support</h6>
+          <p class="text-muted small mb-0">Deep knowledge of Indian cuisines, regional dishes, fasting traditions, and local superfoods.</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-lg-3">
+        <div class="feature-card card h-100 border-0 shadow-sm p-3">
+          <div class="mb-3">
+            <span class="fs-1"><i class="bi bi-shield-check-fill text-primary"></i></span>
+          </div>
+          <h6 class="fw-semibold">Safety-First AI</h6>
+          <p class="text-muted small mb-0">Medically responsible advice — never diagnoses, never prescribes, always recommends professionals.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-success text-white text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Start your nutrition journey today</h2>
+    <p class="lead opacity-90 mb-4">Free to use · No credit card required · Works for Indian diets</p>
+    <a href="http://localhost:5000/register" class="btn btn-light btn-lg px-5 fw-semibold">
+      <i class="bi bi-rocket me-2"></i>Create Free Account
+    </a>
+  </div>
+</section>
+
+<footer class="py-3 text-center text-muted small bg-light">
+  NutriSage © 2024 · Not a substitute for professional medical or dietary advice.
+</footer>
+
+<script src="./NutriSage — AI-Powered Smart Nutrition Agent_files/bootstrap.bundle.min.js.download"></script>
+
+</body></html>
